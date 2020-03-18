@@ -10,7 +10,7 @@ pytest==4.6.3
 pytest-cov==2.7.1
 mock==3.0.5
 requests==2.18.0
-nltk==3.4.1
+nltk==3.4.5
 google-cloud==0.34.0
 google-cloud-language==1.2.0
 fakeredis==1.0.4
@@ -22,5 +22,5 @@ google-cloud-storage==1.19.1
 emoji==0.5.4
 scipy==1.2.1
 nested-lookup==0.2.18
-nltk==3.4.1
+nltk==3.4.5
 truecase==0.0.5
