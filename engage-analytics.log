@@ -1,0 +1,350 @@
+2019-09-18 16:10:36,631 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:10:36,632 - ERROR - services.py - Error on Validation db: list index out of range
+2019-09-18 16:10:36,644 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:10:36,647 - INFO - services.py - Services: Successfully Get Active Companies
+2019-09-18 16:10:36,647 - INFO - validation.py - Services: Successfully Read Active Companies
+2019-09-18 16:10:36,660 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:10:36,664 - INFO - services.py - Services: Successfully Get Active Companies
+2019-09-18 16:10:36,664 - INFO - validation.py - Services: Successfully Read Active Companies
+2019-09-18 16:10:36,675 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:10:36,678 - ERROR - api_data_manager.py - Length mismatch: Expected axis has 0 elements, new values have 7 elements
+2019-09-18 16:10:36,689 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:10:36,691 - ERROR - api_data_manager.py - Length mismatch: Expected axis has 0 elements, new values have 9 elements
+2019-09-18 16:10:36,703 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:10:36,707 - ERROR - api_data_manager.py - Length mismatch: Expected axis has 0 elements, new values have 10 elements
+2019-09-18 16:10:36,718 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:10:36,721 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:10:36,732 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:10:36,735 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:10:36,747 - INFO - api_data_manager.py - Fetching survey replies on a time period ('XPTO', 'XPTO', 'XPTO', 'XPTO')
+2019-09-18 16:10:36,748 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:10:36,752 - INFO - api_data_manager.py - Fetching survey replies on a time period ('XPTO', 'XPTO', 'XPTO', 'XPTO')
+2019-09-18 16:10:36,753 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:10:36,766 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:10:36,769 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:10:36,780 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:10:36,784 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:10:36,808 - ERROR - active_companies_algorithm.py - No more than 10 delay gap is allowed
+2019-09-18 16:10:36,826 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:10:36,837 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:10:36,850 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:10:36,858 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:10:36,869 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:10:36,883 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:10:36,887 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:10:36,900 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:10:36,905 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:10:36,915 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:10:36,932 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:10:36,936 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:10:36,975 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:10:36,980 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:10:36,995 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:10:36,996 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:10:37,010 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:10:37,014 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:10:37,014 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:10:37,015 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:10:37,025 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:10:37,026 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:10:37,026 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:10:37,038 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:10:37,042 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:10:37,058 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:10:37,063 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:10:37,090 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:10:37,095 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:10:37,107 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:10:37,113 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:10:37,121 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:10:38,170 - INFO - redis_manager.py - Connection to Redis server successful!
+2019-09-18 16:10:38,171 - INFO - redis_manager.py - Persistence to Redis server successful for key = xpto-xpto-xpto-xpto
+2019-09-18 16:10:38,179 - INFO - redis_manager.py - Connection to Redis server successful!
+2019-09-18 16:10:38,179 - INFO - redis_manager.py - Retrieving info from Redis server successful for key = xpto-xpto-xpto-xpto
+2019-09-18 16:10:38,184 - INFO - redis_manager.py - Connection to Redis server successful!
+2019-09-18 16:10:38,184 - INFO - redis_manager.py - Persistence to Redis server successful for key = xpto-xpto-xpto-xpto
+2019-09-18 16:10:38,188 - INFO - redis_manager.py - Connection to Redis server successful!
+2019-09-18 16:10:38,189 - INFO - redis_manager.py - Retrieving info from Redis server successful for key = xpto-xpto-xpto-xpto
+2019-09-18 16:10:38,194 - INFO - redis_manager.py - Connection to Redis server successful!
+2019-09-18 16:10:38,195 - INFO - redis_manager.py - Persistence to Redis server successful for key = xpto-xpto-xpto-xpto
+2019-09-18 16:10:38,195 - INFO - redis_manager.py - Retrieving info from Redis server successful for key = xpto-xpto-xpto-xpto
+2019-09-18 16:11:31,231 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:11:31,233 - ERROR - services.py - Error on Validation db: list index out of range
+2019-09-18 16:11:31,244 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:11:31,247 - INFO - services.py - Services: Successfully Get Active Companies
+2019-09-18 16:11:31,248 - INFO - validation.py - Services: Successfully Read Active Companies
+2019-09-18 16:11:31,259 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:11:31,262 - INFO - services.py - Services: Successfully Get Active Companies
+2019-09-18 16:11:31,262 - INFO - validation.py - Services: Successfully Read Active Companies
+2019-09-18 16:11:31,273 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:11:31,275 - ERROR - api_data_manager.py - Length mismatch: Expected axis has 0 elements, new values have 7 elements
+2019-09-18 16:11:31,286 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:11:31,288 - ERROR - api_data_manager.py - Length mismatch: Expected axis has 0 elements, new values have 9 elements
+2019-09-18 16:11:31,298 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:11:31,301 - ERROR - api_data_manager.py - Length mismatch: Expected axis has 0 elements, new values have 10 elements
+2019-09-18 16:11:31,311 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:11:31,314 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:11:31,325 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:11:31,329 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:11:31,341 - INFO - api_data_manager.py - Fetching survey replies on a time period ('XPTO', 'XPTO', 'XPTO', 'XPTO')
+2019-09-18 16:11:31,342 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:11:31,345 - INFO - api_data_manager.py - Fetching survey replies on a time period ('XPTO', 'XPTO', 'XPTO', 'XPTO')
+2019-09-18 16:11:31,346 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:11:31,357 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:11:31,360 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:11:31,372 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:11:31,375 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:11:31,392 - ERROR - active_companies_algorithm.py - No more than 10 delay gap is allowed
+2019-09-18 16:11:31,403 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:11:31,412 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:11:31,426 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:11:31,430 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:11:31,440 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:11:31,453 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:11:31,458 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:11:31,471 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:11:31,476 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:11:31,486 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:11:31,502 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:11:31,506 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:11:31,532 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:11:31,537 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:11:31,553 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:11:31,553 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:11:31,567 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:11:31,572 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:11:31,573 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:11:31,573 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:11:31,584 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:11:31,584 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:11:31,585 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:11:31,595 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:11:31,600 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:11:31,615 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:11:31,619 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:11:31,645 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:11:31,649 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:11:31,662 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:11:31,666 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:11:31,674 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:11:32,586 - INFO - redis_manager.py - Connection to Redis server successful!
+2019-09-18 16:11:32,588 - INFO - redis_manager.py - Persistence to Redis server successful for key = xpto-xpto-xpto-xpto
+2019-09-18 16:11:32,594 - INFO - redis_manager.py - Connection to Redis server successful!
+2019-09-18 16:11:32,595 - INFO - redis_manager.py - Retrieving info from Redis server successful for key = xpto-xpto-xpto-xpto
+2019-09-18 16:11:32,600 - INFO - redis_manager.py - Connection to Redis server successful!
+2019-09-18 16:11:32,600 - INFO - redis_manager.py - Persistence to Redis server successful for key = xpto-xpto-xpto-xpto
+2019-09-18 16:11:32,604 - INFO - redis_manager.py - Connection to Redis server successful!
+2019-09-18 16:11:32,605 - INFO - redis_manager.py - Retrieving info from Redis server successful for key = xpto-xpto-xpto-xpto
+2019-09-18 16:11:32,610 - INFO - redis_manager.py - Connection to Redis server successful!
+2019-09-18 16:11:32,611 - INFO - redis_manager.py - Persistence to Redis server successful for key = xpto-xpto-xpto-xpto
+2019-09-18 16:11:32,611 - INFO - redis_manager.py - Retrieving info from Redis server successful for key = xpto-xpto-xpto-xpto
+2019-09-18 16:20:04,653 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:20:04,655 - ERROR - services.py - Error on Validation db: list index out of range
+2019-09-18 16:20:04,665 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:20:04,668 - INFO - services.py - Services: Successfully Get Active Companies
+2019-09-18 16:20:04,669 - INFO - validation.py - Services: Successfully Read Active Companies
+2019-09-18 16:20:04,680 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:20:04,684 - INFO - services.py - Services: Successfully Get Active Companies
+2019-09-18 16:20:04,684 - INFO - validation.py - Services: Successfully Read Active Companies
+2019-09-18 16:20:04,695 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:20:04,697 - ERROR - api_data_manager.py - Length mismatch: Expected axis has 0 elements, new values have 7 elements
+2019-09-18 16:20:04,710 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:20:04,713 - ERROR - api_data_manager.py - Length mismatch: Expected axis has 0 elements, new values have 9 elements
+2019-09-18 16:20:04,725 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:20:04,728 - ERROR - api_data_manager.py - Length mismatch: Expected axis has 0 elements, new values have 10 elements
+2019-09-18 16:20:04,738 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:20:04,741 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:20:04,751 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:20:04,754 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:20:04,767 - INFO - api_data_manager.py - Fetching survey replies on a time period ('XPTO', 'XPTO', 'XPTO', 'XPTO')
+2019-09-18 16:20:04,768 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:20:04,772 - INFO - api_data_manager.py - Fetching survey replies on a time period ('XPTO', 'XPTO', 'XPTO', 'XPTO')
+2019-09-18 16:20:04,773 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:20:04,784 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:20:04,787 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:20:04,800 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:20:04,804 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:20:04,824 - ERROR - active_companies_algorithm.py - No more than 10 delay gap is allowed
+2019-09-18 16:20:04,836 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:20:04,846 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:20:04,859 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:20:04,864 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:20:04,873 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:20:04,886 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:20:04,890 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:20:04,904 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:20:04,909 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:20:04,919 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:20:04,938 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:20:04,942 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:20:04,969 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:20:04,974 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:20:04,989 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:20:04,990 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:20:05,004 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:20:05,008 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:20:05,009 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:20:05,009 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:20:05,020 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:20:05,020 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:20:05,021 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:20:05,032 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:20:05,037 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:20:05,052 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:20:05,056 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:20:05,087 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:20:05,091 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:20:05,110 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:20:05,115 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:20:05,123 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:20:07,021 - INFO - redis_manager.py - Connection to Redis server successful!
+2019-09-18 16:20:07,021 - INFO - redis_manager.py - Persistence to Redis server successful for key = xpto-xpto-xpto-xpto
+2019-09-18 16:20:07,029 - INFO - redis_manager.py - Connection to Redis server successful!
+2019-09-18 16:20:07,030 - INFO - redis_manager.py - Retrieving info from Redis server successful for key = xpto-xpto-xpto-xpto
+2019-09-18 16:20:07,034 - INFO - redis_manager.py - Connection to Redis server successful!
+2019-09-18 16:20:07,035 - INFO - redis_manager.py - Persistence to Redis server successful for key = xpto-xpto-xpto-xpto
+2019-09-18 16:20:07,039 - INFO - redis_manager.py - Connection to Redis server successful!
+2019-09-18 16:20:07,039 - INFO - redis_manager.py - Retrieving info from Redis server successful for key = xpto-xpto-xpto-xpto
+2019-09-18 16:20:07,045 - INFO - redis_manager.py - Connection to Redis server successful!
+2019-09-18 16:20:07,045 - INFO - redis_manager.py - Persistence to Redis server successful for key = xpto-xpto-xpto-xpto
+2019-09-18 16:20:07,045 - INFO - redis_manager.py - Retrieving info from Redis server successful for key = xpto-xpto-xpto-xpto
+2019-09-18 16:29:13,364 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:29:13,365 - ERROR - services.py - Error on Validation db: list index out of range
+2019-09-18 16:29:13,376 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:29:13,378 - INFO - services.py - Services: Successfully Get Active Companies
+2019-09-18 16:29:13,379 - INFO - validation.py - Services: Successfully Read Active Companies
+2019-09-18 16:29:13,389 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:29:13,393 - INFO - services.py - Services: Successfully Get Active Companies
+2019-09-18 16:29:13,393 - INFO - validation.py - Services: Successfully Read Active Companies
+2019-09-18 16:29:13,405 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:29:13,407 - ERROR - api_data_manager.py - Length mismatch: Expected axis has 0 elements, new values have 7 elements
+2019-09-18 16:29:13,417 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:29:13,420 - ERROR - api_data_manager.py - Length mismatch: Expected axis has 0 elements, new values have 9 elements
+2019-09-18 16:29:13,430 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:29:13,434 - ERROR - api_data_manager.py - Length mismatch: Expected axis has 0 elements, new values have 10 elements
+2019-09-18 16:29:13,445 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:29:13,448 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:29:13,473 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:29:13,498 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:29:13,522 - INFO - api_data_manager.py - Fetching survey replies on a time period ('XPTO', 'XPTO', 'XPTO', 'XPTO')
+2019-09-18 16:29:13,523 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:29:13,527 - INFO - api_data_manager.py - Fetching survey replies on a time period ('XPTO', 'XPTO', 'XPTO', 'XPTO')
+2019-09-18 16:29:13,528 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:29:13,542 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:29:13,548 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:29:13,589 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:29:13,610 - INFO - source_manager.py - Connection to server successful!
+2019-09-18 16:29:13,639 - ERROR - active_companies_algorithm.py - No more than 10 delay gap is allowed
+2019-09-18 16:29:13,651 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:29:13,664 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:29:13,679 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:29:13,684 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:29:13,694 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:29:13,712 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:29:13,716 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:29:13,729 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:29:13,734 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:29:13,744 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:29:13,761 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:29:13,766 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:29:13,793 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:29:13,798 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:29:13,816 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:29:13,816 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:29:13,831 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:29:13,835 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:29:13,836 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:29:13,836 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:29:13,847 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:29:13,848 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:29:13,848 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:29:13,859 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:29:13,864 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:29:13,878 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:29:13,883 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:29:13,908 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:29:13,914 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:29:13,933 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-18 16:29:13,938 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-18 16:29:13,956 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-18 16:29:14,951 - INFO - redis_manager.py - Connection to Redis server successful!
+2019-09-18 16:29:14,951 - INFO - redis_manager.py - Persistence to Redis server successful for key = xpto-xpto-xpto-xpto
+2019-09-18 16:29:14,957 - INFO - redis_manager.py - Connection to Redis server successful!
+2019-09-18 16:29:14,958 - INFO - redis_manager.py - Retrieving info from Redis server successful for key = xpto-xpto-xpto-xpto
+2019-09-18 16:29:14,962 - INFO - redis_manager.py - Connection to Redis server successful!
+2019-09-18 16:29:14,963 - INFO - redis_manager.py - Persistence to Redis server successful for key = xpto-xpto-xpto-xpto
+2019-09-18 16:29:14,968 - INFO - redis_manager.py - Connection to Redis server successful!
+2019-09-18 16:29:14,968 - INFO - redis_manager.py - Retrieving info from Redis server successful for key = xpto-xpto-xpto-xpto
+2019-09-18 16:29:14,975 - INFO - redis_manager.py - Connection to Redis server successful!
+2019-09-18 16:29:14,976 - INFO - redis_manager.py - Persistence to Redis server successful for key = xpto-xpto-xpto-xpto
+2019-09-18 16:29:14,976 - INFO - redis_manager.py - Retrieving info from Redis server successful for key = xpto-xpto-xpto-xpto
+2019-09-19 11:32:47,798 - INFO - source_manager.py - Connection to server successful!
+2019-09-19 11:32:47,800 - ERROR - services.py - Error on Validation db: list index out of range
+2019-09-19 11:32:47,811 - INFO - source_manager.py - Connection to server successful!
+2019-09-19 11:32:47,814 - INFO - services.py - Services: Successfully Get Active Companies
+2019-09-19 11:32:47,815 - INFO - validation.py - Services: Successfully Read Active Companies
+2019-09-19 11:32:47,827 - INFO - source_manager.py - Connection to server successful!
+2019-09-19 11:32:47,829 - INFO - services.py - Services: Successfully Get Active Companies
+2019-09-19 11:32:47,830 - INFO - validation.py - Services: Successfully Read Active Companies
+2019-09-19 11:32:47,840 - INFO - source_manager.py - Connection to server successful!
+2019-09-19 11:32:47,842 - ERROR - api_data_manager.py - Length mismatch: Expected axis has 0 elements, new values have 7 elements
+2019-09-19 11:32:47,852 - INFO - source_manager.py - Connection to server successful!
+2019-09-19 11:32:47,855 - ERROR - api_data_manager.py - Length mismatch: Expected axis has 0 elements, new values have 9 elements
+2019-09-19 11:32:47,867 - INFO - source_manager.py - Connection to server successful!
+2019-09-19 11:32:47,869 - ERROR - api_data_manager.py - Length mismatch: Expected axis has 0 elements, new values have 10 elements
+2019-09-19 11:32:47,879 - INFO - source_manager.py - Connection to server successful!
+2019-09-19 11:32:47,882 - INFO - source_manager.py - Connection to server successful!
+2019-09-19 11:32:47,894 - INFO - source_manager.py - Connection to server successful!
+2019-09-19 11:32:47,898 - INFO - source_manager.py - Connection to server successful!
+2019-09-19 11:32:47,960 - INFO - api_data_manager.py - Fetching survey replies on a time period ('XPTO', 'XPTO', 'XPTO', 'XPTO')
+2019-09-19 11:32:47,961 - INFO - source_manager.py - Connection to server successful!
+2019-09-19 11:32:47,966 - INFO - api_data_manager.py - Fetching survey replies on a time period ('XPTO', 'XPTO', 'XPTO', 'XPTO')
+2019-09-19 11:32:47,967 - INFO - source_manager.py - Connection to server successful!
+2019-09-19 11:32:47,981 - INFO - source_manager.py - Connection to server successful!
+2019-09-19 11:32:47,985 - INFO - source_manager.py - Connection to server successful!
+2019-09-19 11:32:48,001 - INFO - source_manager.py - Connection to server successful!
+2019-09-19 11:32:48,007 - INFO - source_manager.py - Connection to server successful!
+2019-09-19 11:32:48,028 - ERROR - active_companies_algorithm.py - No more than 10 delay gap is allowed
+2019-09-19 11:32:48,038 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-19 11:32:48,049 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-19 11:32:48,062 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-19 11:32:48,067 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-19 11:32:48,076 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-19 11:32:48,090 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-19 11:32:48,094 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-19 11:32:48,106 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-19 11:32:48,111 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-19 11:32:48,121 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-19 11:32:48,137 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-19 11:32:48,142 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-19 11:32:48,168 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-19 11:32:48,173 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-19 11:32:48,190 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-19 11:32:48,190 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-19 11:32:48,204 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-19 11:32:48,209 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-19 11:32:48,209 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-19 11:32:48,210 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-19 11:32:48,221 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-19 11:32:48,222 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-19 11:32:48,222 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-19 11:32:48,233 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-19 11:32:48,238 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-19 11:32:48,252 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-19 11:32:48,257 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-19 11:32:48,285 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-19 11:32:48,290 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-19 11:32:48,303 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE COMPANIES
+2019-09-19 11:32:48,307 - INFO - active_companies_algorithm.py - ALREADY PREPARED VIABLE USERS
+2019-09-19 11:32:48,315 - WARNING - active_companies_algorithm.py - Services: Active Companies Table Empty from Python Code
+2019-09-19 11:32:49,444 - INFO - redis_manager.py - Connection to Redis server successful!
+2019-09-19 11:32:49,445 - INFO - redis_manager.py - Persistence to Redis server successful for key = xpto-xpto-xpto-xpto
+2019-09-19 11:32:49,455 - INFO - redis_manager.py - Connection to Redis server successful!
+2019-09-19 11:32:49,456 - INFO - redis_manager.py - Retrieving info from Redis server successful for key = xpto-xpto-xpto-xpto
+2019-09-19 11:32:49,460 - INFO - redis_manager.py - Connection to Redis server successful!
+2019-09-19 11:32:49,461 - INFO - redis_manager.py - Persistence to Redis server successful for key = xpto-xpto-xpto-xpto
+2019-09-19 11:32:49,465 - INFO - redis_manager.py - Connection to Redis server successful!
+2019-09-19 11:32:49,466 - INFO - redis_manager.py - Retrieving info from Redis server successful for key = xpto-xpto-xpto-xpto
+2019-09-19 11:32:49,471 - INFO - redis_manager.py - Connection to Redis server successful!
+2019-09-19 11:32:49,472 - INFO - redis_manager.py - Persistence to Redis server successful for key = xpto-xpto-xpto-xpto
+2019-09-19 11:32:49,472 - INFO - redis_manager.py - Retrieving info from Redis server successful for key = xpto-xpto-xpto-xpto

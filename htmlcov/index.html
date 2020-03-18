@@ -1,0 +1,788 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Coverage report</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.ba-throttle-debounce.min.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="coverage_html.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(coverage.index_ready);
+    </script>
+</head>
+<body class="indexfile">
+
+<div id="header">
+    <div class="content">
+        <h1>Coverage report:
+            <span class="pc_cov">57.00%</span>
+        </h1>
+
+        <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
+
+        <form id="filter_container">
+            <input id="filter" type="text" value="" placeholder="filter..." />
+        </form>
+    </div>
+</div>
+
+<div class="help_panel">
+    <img id="panel_icon" src="keybd_open.png" alt="Hide keyboard shortcuts" />
+    <p class="legend">Hot-keys on this page</p>
+    <div>
+    <p class="keyhelp">
+        <span class="key">n</span>
+        <span class="key">s</span>
+        <span class="key">m</span>
+        <span class="key">x</span>
+        
+        <span class="key">b</span>
+        <span class="key">p</span>
+        
+        <span class="key">c</span> &nbsp; change column sorting
+    </p>
+    </div>
+</div>
+
+<div id="index">
+    <table class="index">
+        <thead>
+            
+            <tr class="tablehead" title="Click to sort">
+                <th class="name left headerSortDown shortkey_n">Module</th>
+                <th class="shortkey_s">statements</th>
+                <th class="shortkey_m">missing</th>
+                <th class="shortkey_x">excluded</th>
+                
+                <th class="shortkey_b">branches</th>
+                <th class="shortkey_p">partial</th>
+                
+                <th class="right shortkey_c">coverage</th>
+            </tr>
+        </thead>
+        
+        <tfoot>
+            <tr class="total">
+                <td class="name left">Total</td>
+                <td>2915</td>
+                <td>1169</td>
+                <td>0</td>
+                
+                <td>336</td>
+                <td>33</td>
+                
+                <td class="right" data-ratio="1853 3251">57.00%</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics___init___py.html">engage-analytics/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_active_companies_py.html">engage-analytics/active_companies.py</a></td>
+                <td>10</td>
+                <td>10</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 10">0.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_active_companies_src_implementation_services_py.html">engage-analytics/active_companies/src/implementation/services.py</a></td>
+                <td>31</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="32 37">86.49%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_active_companies_src_models_performance_labels_py.html">engage-analytics/active_companies/src/models/performance/labels.py</a></td>
+                <td>14</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="6 16">37.50%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_active_companies_src_models_performance_metrics_py.html">engage-analytics/active_companies/src/models/performance/metrics.py</a></td>
+                <td>155</td>
+                <td>132</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="23 159">14.47%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_active_companies_src_models_train_active_companies_algorithm_py.html">engage-analytics/active_companies/src/models/train/active_companies_algorithm.py</a></td>
+                <td>125</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td>14</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="130 139">93.53%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_active_companies_src_workflows_configurations_py.html">engage-analytics/active_companies/src/workflows/configurations.py</a></td>
+                <td>28</td>
+                <td>11</td>
+                <td>0</td>
+                
+                <td>12</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="23 40">57.50%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_active_companies_src_workflows_logs_register_py.html">engage-analytics/active_companies/src/workflows/logs/register.py</a></td>
+                <td>36</td>
+                <td>27</td>
+                <td>0</td>
+                
+                <td>10</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="9 46">19.57%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_active_companies_src_workflows_validation_py.html">engage-analytics/active_companies/src/workflows/validation.py</a></td>
+                <td>66</td>
+                <td>36</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="30 72">41.67%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_lei_py.html">engage-analytics/lei.py</a></td>
+                <td>35</td>
+                <td>35</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 41">0.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_lei_src_mapping_duns_lei_engage_cons_py.html">engage-analytics/lei/src/mapping_duns_lei_engage/cons.py</a></td>
+                <td>6</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 6">0.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_lei_src_mapping_duns_lei_engage_mapping_lei_duns_py.html">engage-analytics/lei/src/mapping_duns_lei_engage/mapping_lei_duns.py</a></td>
+                <td>89</td>
+                <td>89</td>
+                <td>0</td>
+                
+                <td>28</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 117">0.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_lei_src_mapping_duns_lei_engage_plot_py.html">engage-analytics/lei/src/mapping_duns_lei_engage/plot.py</a></td>
+                <td>6</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 6">0.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_lei_src_read_lei_cons_py.html">engage-analytics/lei/src/read_lei/cons.py</a></td>
+                <td>16</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="16 16">100.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_lei_src_read_lei_inject_sql_py.html">engage-analytics/lei/src/read_lei/inject_sql.py</a></td>
+                <td>62</td>
+                <td>62</td>
+                <td>0</td>
+                
+                <td>20</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 82">0.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_lei_src_read_lei_read_path_py.html">engage-analytics/lei/src/read_lei/read_path.py</a></td>
+                <td>7</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="7 7">100.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_lei_src_read_lei_read_source_files_py.html">engage-analytics/lei/src/read_lei/read_source_files.py</a></td>
+                <td>46</td>
+                <td>46</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 50">0.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_lei_src_read_lei_read_transform_files_py.html">engage-analytics/lei/src/read_lei/read_transform_files.py</a></td>
+                <td>149</td>
+                <td>66</td>
+                <td>0</td>
+                
+                <td>52</td>
+                <td>13</td>
+                
+                <td class="right" data-ratio="102 201">50.75%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_lei_src_read_lei_split_file_py.html">engage-analytics/lei/src/read_lei/split_file.py</a></td>
+                <td>9</td>
+                <td>9</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 9">0.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_sentiment_analysis_src_clean_comments_py.html">engage-analytics/sentiment_analysis/src/clean_comments.py</a></td>
+                <td>27</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="35 35">100.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_sentiment_analysis_src_clients_language_sentiments_entity_py.html">engage-analytics/sentiment_analysis/src/clients_language_sentiments_entity.py</a></td>
+                <td>78</td>
+                <td>37</td>
+                <td>0</td>
+                
+                <td>14</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="46 92">50.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_sentiment_analysis_src_constants_py.html">engage-analytics/sentiment_analysis/src/constants.py</a></td>
+                <td>8</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="8 8">100.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_sentiment_analysis_src_extract_from_db_insert_weeks_to_redis_py.html">engage-analytics/sentiment_analysis/src/extract_from_db_insert_weeks_to_redis.py</a></td>
+                <td>41</td>
+                <td>41</td>
+                <td>0</td>
+                
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 49">0.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_sentiment_analysis_src_extract_topics_calculate_scores_py.html">engage-analytics/sentiment_analysis/src/extract_topics_calculate_scores.py</a></td>
+                <td>44</td>
+                <td>44</td>
+                <td>0</td>
+                
+                <td>10</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 54">0.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_sentiment_analysis_src_report_cons_report_py.html">engage-analytics/sentiment_analysis/src/report/cons_report.py</a></td>
+                <td>19</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="19 19">100.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_sentiment_analysis_src_report_interface_report_py.html">engage-analytics/sentiment_analysis/src/report/interface_report.py</a></td>
+                <td>69</td>
+                <td>45</td>
+                <td>0</td>
+                
+                <td>12</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="28 81">34.57%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_sentiment_analysis_src_report_preparation_report_py.html">engage-analytics/sentiment_analysis/src/report/preparation_report.py</a></td>
+                <td>41</td>
+                <td>41</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 47">0.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_sentiment_analysis_src_report_report_py.html">engage-analytics/sentiment_analysis/src/report/report.py</a></td>
+                <td>42</td>
+                <td>42</td>
+                <td>0</td>
+                
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 50">0.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_sentiment_analysis_src_report_write_report_py.html">engage-analytics/sentiment_analysis/src/report/write_report.py</a></td>
+                <td>27</td>
+                <td>27</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 29">0.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_sentiment_analysis_src_report_html_utilities_html_py.html">engage-analytics/sentiment_analysis/src/report_html/utilities_html.py</a></td>
+                <td>121</td>
+                <td>5</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="122 127">96.06%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_sentiment_analysis_src_report_html_write_html_py.html">engage-analytics/sentiment_analysis/src/report_html/write_html.py</a></td>
+                <td>71</td>
+                <td>71</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 77">0.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_sentiment_analysis_src_survey_replies_manager_py.html">engage-analytics/sentiment_analysis/src/survey_replies_manager.py</a></td>
+                <td>68</td>
+                <td>68</td>
+                <td>0</td>
+                
+                <td>12</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 80">0.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_sentiment_analysis_src_topics_manager_py.html">engage-analytics/sentiment_analysis/src/topics_manager.py</a></td>
+                <td>54</td>
+                <td>54</td>
+                <td>0</td>
+                
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 62">0.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_sentiment_analysis_src_word_cloud_py.html">engage-analytics/sentiment_analysis/src/word_cloud.py</a></td>
+                <td>25</td>
+                <td>14</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="11 29">37.93%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_tests_active_companies_test_active_companies_py.html">engage-analytics/tests/active_companies/test_active_companies.py</a></td>
+                <td>33</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="33 33">100.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_tests_active_companies_test_api_data_manager_py.html">engage-analytics/tests/active_companies/test_api_data_manager.py</a></td>
+                <td>83</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="83 83">100.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_tests_active_companies_test_labels_py.html">engage-analytics/tests/active_companies/test_labels.py</a></td>
+                <td>19</td>
+                <td>12</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="7 19">36.84%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_tests_active_companies_test_metrics_py.html">engage-analytics/tests/active_companies/test_metrics.py</a></td>
+                <td>22</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="22 22">100.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_tests_active_companies_test_oliver_classifier_py.html">engage-analytics/tests/active_companies/test_oliver_classifier.py</a></td>
+                <td>213</td>
+                <td>10</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="203 213">95.31%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_tests_active_companies_test_utilities_py.html">engage-analytics/tests/active_companies/test_utilities.py</a></td>
+                <td>164</td>
+                <td>16</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="150 168">89.29%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_tests_lei_test_cons_py.html">engage-analytics/tests/lei/test_cons.py</a></td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="2 2">100.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_tests_lei_test_read_path_py.html">engage-analytics/tests/lei/test_read_path.py</a></td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="6 6">100.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_tests_lei_test_read_source_files_py.html">engage-analytics/tests/lei/test_read_source_files.py</a></td>
+                <td>14</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="14 14">100.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_tests_lei_test_read_transform_file_py.html">engage-analytics/tests/lei/test_read_transform_file.py</a></td>
+                <td>39</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="39 39">100.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_tests_sentiment_analysis_test_clean_comments_py.html">engage-analytics/tests/sentiment_analysis/test_clean_comments.py</a></td>
+                <td>28</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="28 28">100.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_tests_sentiment_analysis_test_client_language_sentiment_entity_py.html">engage-analytics/tests/sentiment_analysis/test_client_language_sentiment_entity.py</a></td>
+                <td>38</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="38 38">100.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_tests_sentiment_analysis_test_interface_report_py.html">engage-analytics/tests/sentiment_analysis/test_interface_report.py</a></td>
+                <td>21</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="21 21">100.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_tests_sentiment_analysis_test_redis_manager_py.html">engage-analytics/tests/sentiment_analysis/test_redis_manager.py</a></td>
+                <td>48</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="44 48">91.67%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_tests_sentiment_analysis_test_utilities_html_py.html">engage-analytics/tests/sentiment_analysis/test_utilities_html.py</a></td>
+                <td>170</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="170 170">100.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_utils_alerts_manager_py.html">engage-analytics/utils/alerts/manager.py</a></td>
+                <td>8</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="5 8">62.50%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_utils_alerts_slack_message_py.html">engage-analytics/utils/alerts/slack_message.py</a></td>
+                <td>13</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="7 17">41.18%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_utils_data_connection_api_data_manager_py.html">engage-analytics/utils/data_connection/api_data_manager.py</a></td>
+                <td>97</td>
+                <td>15</td>
+                <td>0</td>
+                
+                <td>12</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="91 109">83.49%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_utils_data_connection_constant_variables_db_py.html">engage-analytics/utils/data_connection/constant_variables_db.py</a></td>
+                <td>28</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="28 28">100.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_utils_data_connection_manager_py.html">engage-analytics/utils/data_connection/manager.py</a></td>
+                <td>8</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 8">0.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_utils_data_connection_redis_manager_py.html">engage-analytics/utils/data_connection/redis_manager.py</a></td>
+                <td>36</td>
+                <td>9</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="27 36">75.00%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_utils_data_connection_source_manager_py.html">engage-analytics/utils/data_connection/source_manager.py</a></td>
+                <td>50</td>
+                <td>16</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="36 54">66.67%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="engage-analytics_utils_utilities_py.html">engage-analytics/utils/utilities.py</a></td>
+                <td>150</td>
+                <td>29</td>
+                <td>0</td>
+                
+                <td>44</td>
+                <td>7</td>
+                
+                <td class="right" data-ratio="152 194">78.35%</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+    <p id="no_rows">
+        No items found using the specified filter.
+    </p>
+</div>
+
+<div id="footer">
+    <div class="content">
+        <p>
+            <a class="nav" href="https://coverage.readthedocs.io">coverage.py v4.5.3</a>,
+            created at 2019-09-19 11:32
+        </p>
+    </div>
+</div>
+
+</body>
+</html>

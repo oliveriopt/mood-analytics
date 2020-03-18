@@ -1,0 +1,29 @@
+FROM mood-analytics:build
+
+FROM python:latest
+
+ENV TZ=UTC \
+  DEBIAN_FRONTEND=noninteractive
+ENV LANG=C.UTF-8
+ENV DISPLAY=:10
+ENV PATH="/venv/bin:$PATH"
+
+COPY --from=0 /app /app
+COPY --from=0 /venv /venv
+
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y \
+  cron \
+  python3-tk \
+  jq \
+  wkhtmltopdf \
+  xvfb \
+  default-jdk
+
+RUN cp deployment/crontab /etc/cron.d/root
+RUN cp deployment/docker-entrypoint.sh /entrypoint.sh
+
+ENTRYPOINT [ "/entrypoint.sh" ]
+
+CMD ["cron", "-f"]

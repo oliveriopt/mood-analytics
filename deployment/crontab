@@ -1,0 +1,7 @@
+# min   hour    day     month   weekday    user   command
+0         2       *       *       0        root   . /root/.env && /app/entrypoints/active_companies.sh
+*         *       *       *       *        root   . /root/.env && /app/agent.py /app/engage-analytics/data_integrity/config.yaml >>/proc/1/fd/1 2>&1
+0         4       *       *       1        root   . /root/.env && /app/entrypoints/historical_scores.sh
+0         5       *       *       1        root   . /root/.env && /app/entrypoints/report.sh
+0         4       *       *       1        root   . /root/.env && /app/entrypoints/entities_topics.sh
+30         4       *       *       1        root   . /root/.env && /app/entrypoints/entities_survey_replies.sh
