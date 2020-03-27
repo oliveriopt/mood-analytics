@@ -1,0 +1,104 @@
+labels_from_env:
+  database_name: DB_NAME
+  app_env: APP_ENV
+
+metrics:
+- name: "Check confirmation token with null values on users table"
+  type: "data-quality/users/check_null_values"
+  query: >
+    SELECT
+      COUNT(*)
+    FROM
+      users
+    WHERE
+      confirmation_token IS NULL;
+- name: "Check created_by with null values on survey_replies table"
+  type: "data-quality/survey_replies/check_null_values"
+  query: >
+    SELECT
+      COUNT(*)
+    FROM
+      survey_replies
+    WHERE
+      created_by IS NULL;
+- name: "Check the Companies that your name is the same or similar"
+  type: "data-quality/companies/check_name_same_similar"
+  query: >
+    CALL `COMPANY_NAME`();
+- name: "Check if there are users without user_preferences"
+  type: "data-quality/user_preferences/check_users_without_preferences"
+  query: >
+    SELECT
+        COUNT(*)
+    FROM
+      users
+    WHERE
+      enabled = 1
+      AND username NOT LIKE '%deleted%'
+      AND last_login IS NOT NULL
+      AND id NOT IN (SELECT user_id FROM user_preferences);
+- name: "Check the users with wrong roles"
+  type: "data-quality/users/users_with_wrong_roles_regular_user"
+  query: >
+    SELECT
+      COUNT(*)
+    FROM
+      company_users
+    WHERE
+      is_admin = 0
+      AND is_general_manager = 0
+      AND (
+        roles LIKE '%ROLE_ADMIN%'
+        OR roles LIKE '%ROLE_GENERAL_MANAGER%'
+      );
+- name: "Check the users with wrong roles"
+  type: "data-quality/users/users_with_wrong_roles_not_general_manager"
+  query: >
+    SELECT
+      COUNT(*)
+    FROM
+      company_users
+    WHERE
+      is_general_manager = 1
+      AND roles NOT LIKE '%ROLE_GENERAL_MANAGER%';
+- name: "Check the users with wrong roles"
+  type: "data-quality/users/users_with_wrong_roles_not_admin"
+  query: >
+    SELECT
+      COUNT(*)
+    FROM
+      company_users
+    WHERE
+      is_admin = 1
+      AND roles NOT LIKE '%ROLE_ADMIN%';
+- name: "Check the users with wrong roles"
+  type: "data-quality/users/users_with_wrong_roles_not_admin_not_manager"
+  query: >
+    SELECT
+      COUNT(*)
+    FROM
+      company_users
+    WHERE
+      is_admin = 1
+      AND is_general_manager = 1
+      AND (
+          roles NOT LIKE '%ROLE_GENERAL_MANAGER%'
+          AND roles NOT LIKE '%ROLE_ADMIN%'
+      );
+- name: "Check how many companies there are with the same name"
+  type: "data-quality/companies/check_companies_with_same_name"
+  query: >
+    SELECT
+      COUNT(*)
+    FROM (
+      SELECT
+        name
+      FROM
+        companies
+      WHERE
+        is_enabled = 1
+      GROUP BY
+        name
+      HAVING
+        COUNT(*) > 1
+    ) x
